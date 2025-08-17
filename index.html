@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio & Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header and Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+            <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Layout -->
+  <main class="container grid-layout">
+    <!-- Main Content Area -->
+    <section class="content-area">
+      <!-- Hero / Intro -->
+      <section class="section-card hero">
+        <h1>Welcome to My Portfolio & Tech Blog</h1>
+        <p>Showcasing my work, products, and insights into modern web development.</p>
+        <a href="portfolio.html" class="btn">See My Work</a>
+      </section>
+
+      <!-- Portfolio Preview -->
+      <section id="portfolio" class="section-card">
+        <h2>Portfolio Highlights</h2>
+        <div class="flex-cards">
+          <article class="portfolio-item">
+            <img src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg" alt="Project 1 preview" />
+            <h3>Responsive Web Platform</h3>
+            <p>Modern web app for e-commerce, built using React and Node.js.</p>
+            <a href="portfolio.html#project1">View Project</a>
+          </article>
+          <article class="portfolio-item">
+            <img src="https://media.istockphoto.com/id/2094337676/photo/diverse-team-working-together-in-modern-co-working-space.jpg?s=2048x2048&w=is&k=20&c=laH1UL7RxM9mqD9TSOYbAFbHBO3RokKTz3O1arUJ0_0=" alt="Project 2 preview" />
+            <h3>Interactive Data Dashboard</h3>
+            <p>Business analytics dashboard with real-time visualizations.</p>
+            <a href="portfolio.html#project2">View Project</a>
+          </article>
+        </div>
+        <a href="portfolio.html" class="see-all">See All Projects &rarr;</a>
+      </section>
+
+      <!-- Product Showcase -->
+      <section id="products" class="section-card">
+        <h2>Product Showcase</h2>
+        <div class="flex-cards">
+          <article class="product-card">
+            <img src="https://images.pexels.com/photos/326502/pexels-photo-326502.jpeg" alt="Product 1" />
+            <h3>UI Kit Pro</h3>
+            <p>Premium UI components for designers and developers.</p>
+            <a href="product.html#uikit">Learn More</a>
+          </article>
+          <article class="product-card">
+            <img src="https://images.pexels.com/photos/1188751/pexels-photo-1188751.jpeg" alt="Product 2" />
+            <h3>Portfolio Boilerplate</h3>
+            <p>An easily customizable template for personal portfolios.</p>
+            <a href="product.html#boilerplate">Learn More</a>
+          </article>
+        </div>
+        <a href="product.html" class="see-all">See All Products &rarr;</a>
+      </section>
+
+      <!-- Blog Preview -->
+      <section id="blog" class="section-card">
+        <h2>Latest Blog Posts</h2>
+        <div class="flex-cards">
+          <article class="blog-card">
+            <h3>Mastering CSS Grid in 2025</h3>
+            <p>Deep dive into building modern, flexible layouts with CSS Grid.</p>
+            <a href="blog.html#cssgrid">Read More</a>
+          </article>
+          <article class="blog-card">
+            <h3>REST vs. GraphQL: Modern APIs</h3>
+            <p>A practical guide on when to use REST and GraphQL for your backend.</p>
+            <a href="blog.html#restgraphql">Read More</a>
+          </article>
+        </div>
+        <a href="blog.html" class="see-all">Read All Posts &rarr;</a>
+      </section>
+    </section>
+
+    <!-- Sidebar: Gallery, Quick Links, Articles -->
+    <aside class="sidebar">
+      <!-- Gallery -->
+      <section id="gallery" class="section-card">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-grid" aria-label="Photo gallery">
+          <figure>
+            <img src="https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg" alt="Mountain landscape" />
+            <figcaption>Mountains at dawn</figcaption>
+          </figure>
+          <figure>
+            <img src="https://media.istockphoto.com/id/1322104312/photo/freedom-chains-that-transform-into-birds-charge-concept.jpg?s=2048x2048&w=is&k=20&c=ZUWO0obdgqfvcSFLGFPJdcLR7Sg6X05fuAxSnAYPtM0=" alt="City lights" />
+            <figcaption>Cityscape by night</figcaption>
+          </figure>
+          <figure>
+            <img src="https://images.pexels.com/photos/709143/pexels-photo-709143.jpeg" alt="Forest scene" />
+            <figcaption>Serene forest view</figcaption>
+          </figure>
+        </div>
+        <a href="gallery.html" class="see-all">See Full Gallery &rarr;</a>
+      </section>
+
+      <!-- Services Preview or Call-to-Action -->
+      <section id="services" class="section-card">
+        <h2>My Services</h2>
+        <ul>
+          <li>Custom Website Development</li>
+          <li>UI/UX Design</li>
+          <li>Performance Optimization</li>
+          <li>Technical Consulting</li>
+        </ul>
+        <a href="services.html" class="see-all">Learn More &rarr;</a>
+      </section>
+
+      <!-- Quick Contact -->
+      <section id="contact" class="section-card">
+        <h2>Contact Me</h2>
+        <p>Interested in working together? <a href="contact.html">Get in touch!</a></p>
+      </section>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Addisu Ashine Abera. All rights reserved.</p>
+      <nav aria-label="Footer navigation">
+        <ul class="footer-nav">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
